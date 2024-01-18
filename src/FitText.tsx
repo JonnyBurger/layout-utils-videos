@@ -50,7 +50,7 @@ export const FitText = () => {
 							lineHeight: 1,
 							padding: '12px 20px',
 							color: 'white',
-							transform: 'translateY(4px)',
+							transform: 'translateY(3px)',
 						}}
 					>
 						{Math.ceil(width)}px
@@ -65,10 +65,12 @@ export const FitText = () => {
 					>
 						<div
 							style={{
-								height: 60,
+								height: 90,
 								display: 'flex',
 								alignItems: 'center',
 								width,
+								paddingTop: 10,
+								paddingBottom: 10,
 							}}
 						>
 							{text}

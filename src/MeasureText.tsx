@@ -35,7 +35,7 @@ export const MeasureText = () => {
 						lineHeight: 1,
 						padding: '12px 20px',
 						color: 'white',
-						transform: 'translateY(4px)',
+						transform: 'translateY(3px)',
 					}}
 				>
 					{Math.ceil(measured.width)}x{measured.height}
